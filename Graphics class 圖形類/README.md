@@ -1,3 +1,20 @@
+# 說明
+
+| Functions (函式)                | 說明                |
+| ------------------------------- | ------------------- |
+| setArgs(data, args)             | 局域函式，設定屬性  |
+| deepCall(table, funcName, args) | 局域函式，深度呼叫  |
+| clone(table)                    | 局域函式，複製table |
+
+| Class (類)    | 說明                       |
+| ------------- | -------------------------- |
+| Module        | 用來繼承的類，不會特別用他 |
+| Shadow.Text   | 陰影文字                   |
+| Tooltip.Text  | 提示說明文字               |
+| Circle.Box    | 圓                         |
+| Trapezoid.Box | 梯形                       |
+| Rectangle.Box | 矩形(方形)                 |
+
 ## Class Module
 
 延伸 UI.Box 和 UI.Text 的類
